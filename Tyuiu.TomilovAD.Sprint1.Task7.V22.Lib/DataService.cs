@@ -6,7 +6,7 @@ namespace Tyuiu.TomilovAD.Sprint1.Task7.V22.Lib
     {
         public double Calculate(double x, double y)
         {
-            return Math.Round((Math.Pow((1 - Math.Cos(x)), (Math.Cos(x) / Math.Sin(x))) + Math.Cos(x - y)), 3);
+            return Math.Round(((Math.Pow((1 - Math.Tan(x)), 1 / Math.Tan(x))) + Math.Cos(x - y)), 3);
         }
     }
 }
